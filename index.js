@@ -101,4 +101,5 @@ function restartGame() {
   document.getElementById("9").disabled = false;
 
   count = 0;
+  fillButton(index, "X");
 }
